@@ -29,3 +29,6 @@ config :peepchat, Peepchat.Repo,
   database: "peepchat_dev",
   hostname: "localhost",
   pool_size: 10
+
+config :guardian, Guardian,
+  secret_key: "eDkBZjd/d8qQr6KWqlmqdZ4dwV98hAwyPJeJ6Tn43SW9k5wMoNqeurQXCBRBM3gj"

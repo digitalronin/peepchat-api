@@ -17,3 +17,6 @@ config :peepchat, Peepchat.Repo,
   database: "peepchat_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
+
+config :guardian, Guardian,
+  secret_key: "0dVgsgaxIDe5WsrHEqjisXzAxJF+3CRkBOWPPry6e8KF6FboV51SxnmueeCouAva"
