@@ -37,7 +37,8 @@ defmodule Peepchat.Mixfile do
      {:cowboy, "~> 1.0"},
      {:cors_plug, "~> 1.1"},
      {:guardian, "~> 0.10.0"},
-     {:comeonin, "~> 2.4"}]
+     {:comeonin, "~> 2.4"},
+     {:ja_serializer, "~> 0.8.1"}]
   end
 
   # Aliases are shortcut or tasks specific to the current project.
