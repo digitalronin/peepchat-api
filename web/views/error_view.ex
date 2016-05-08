@@ -13,7 +13,7 @@ defmodule Peepchat.ErrorView do
   end
 
   def render("500.json", _assigns) do
-    %{title: "Internale server error", code: 500}
+    %{title: "Internal server error", code: 500}
     |> JaSerializer.ErrorSerializer.format
   end
 
