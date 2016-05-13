@@ -1,5 +1,5 @@
 server:
-	iex -S mix
+	iex -S mix phoenix.server
 
 deploy:
 	git push

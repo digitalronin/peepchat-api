@@ -4,6 +4,13 @@
 /deps
 /*.ez
 
+/priv/static/css
+/priv/static/js
+/priv/static/images
+/priv/static/manifest.json
+/priv/static/robots*
+/priv/static/favicon*
+
 # Generate on crash by the VM
 erl_crash.dump
 
